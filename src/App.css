@@ -1,0 +1,72 @@
+.app {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  margin: 20px 0 10px;
+}
+
+.student-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.student-card {
+  width: 220px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.student-card img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.student-card h3 {
+  margin: 8px 0;
+}
+
+.student-card p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+.student-form {
+  display: grid;
+  gap: 8px;
+  max-width: 420px;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.student-form h2 {
+  margin: 0 0 8px;
+}
+
+.student-form input,
+.student-form select,
+.student-form button {
+  padding: 8px;
+  font-size: 14px;
+}
+
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.student-form button {
+  cursor: pointer;
+}
